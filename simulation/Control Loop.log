@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\aimil\Desktop\Potentiostat\Control Loop.net
+Start Time: Thu Apr 30 18:06:28 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.091 seconds.
+
+Files loaded:
+C:\Users\aimil\Desktop\Potentiostat\Control Loop.net
+C:\Users\aimil\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+
