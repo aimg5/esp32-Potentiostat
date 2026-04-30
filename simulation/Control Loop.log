@@ -1,15 +1,55 @@
 LTspice 24.1.10 for Windows
-Circuit: C:\Users\aimil\Desktop\Potentiostat\Control Loop.net
-Start Time: Thu Apr 30 18:06:28 2026
+Circuit: C:\Users\aimil\Desktop\Potentiostat\esp32-Potentiostat\simulation\Control Loop.net
+Start Time: Thu Apr 30 22:52:32 2026
+Options: gmin=1e-13  reltol=0.01  abstol=1e-9  vntol=1e-6  method=gear  cshunt=1e-15
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
-method = modified trap
-Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.091 seconds.
+method = Gear
+gmin = 1e-13
+abstol = 1e-09
+reltol = 0.01
+Instance "u1:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u1:M14": Length shorter than recommended for a level 1 MOSFET.
+Instance "u2:M12": Length shorter than recommended for a level 1 MOSFET.
+Instance "u2:M14": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+06
+Initial Gmin=1e+06 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 5 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1e-07
+Changing Tseed to 1e-09
+Changing Tseed to 1e-06
+Changing Tseed to 1e-10
+Changing Tseed to 1e-05
+Changing Tseed to 1e-11
+Changing Tseed to 0.0001
+Changing Tseed to 1e-12
+Changing Tseed to 0.001
+Changing Tseed to 1e-13
+Changing Tseed to 0.01
+Changing Tseed to 1e-14
+Total elapsed time: 1.007 seconds.
 
 Files loaded:
-C:\Users\aimil\Desktop\Potentiostat\Control Loop.net
-C:\Users\aimil\AppData\Local\LTspice\lib\sub\UniversalOpAmp2.lib
+C:\Users\aimil\Desktop\Potentiostat\esp32-Potentiostat\simulation\Control Loop.net
+C:\Users\aimil\Desktop\Potentiostat\esp32-Potentiostat\simulation\MCP6001.lib
 
